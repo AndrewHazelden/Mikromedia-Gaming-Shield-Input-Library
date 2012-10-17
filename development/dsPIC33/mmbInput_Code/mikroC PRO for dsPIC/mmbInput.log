@@ -1,0 +1,40 @@
+0	1	mikroCdsPIC.exe -MSF -DBG -pP33FJ256GP710A -DL -SSA -O11111114 -fo64 -N"C:\Documents and Settings\PC\Desktop\Mikromedia Gaming Shield Input Libray\Development\dsPIC33\mmbInput_Code\mikroC PRO for dsPIC\mmbInput.mcpds" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for dsPIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for dsPIC\uses\" -SP"C:\Documents and Settings\PC\Desktop\Mikromedia Gaming Shield Input Libray\Development\dsPIC33\mmbInput_Code\mikroC PRO for dsPIC\" -IP"C:\Documents and Settings\PC\Desktop\Mikromedia Gaming Shield Input Libray\Development\dsPIC33\mmbInput_Code\mikroC PRO for dsPIC\" "mmbInput_main.c" "mmbInput_events_code.c" "mmbInput_driver.c" "mmbInput_resources.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_ADC_12_p24HJ_p33.mcl" "__Lib_SPI_12.mcl" "__Lib_Mmc.mcl" "__Lib_MmcFat16.mcl" "__Lib_MmcFat16Constants.mcl" "__Lib_TFT.mcl" "__Lib_TouchPanel_TFT.mcl"	 
+diagnostics: 0	121	Loading...	 
+diagnostics: 0	126	All files Preprocessed in 94 ms	 
+diagnostics: 0	122	Compilation Started	mmbinput_objects.h
+diagnostics: 53	123	Compiled Successfully	mmbInput_main.c
+diagnostics: 0	122	Compilation Started	mmbinput_objects.h
+diagnostics: 236	123	Compiled Successfully	mmbInput_events_code.c
+diagnostics: 0	122	Compilation Started	mmbinput_objects.h
+warning: 241	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 263	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 292	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 321	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 350	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 379	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 408	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 437	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 466	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 495	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 524	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 553	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 582	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 611	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 639	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 666	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 693	1508	Implicit conversion of int to ptr	mmbInput_driver.c
+warning: 746	1506	Implicit conversion of pointer to int	mmbInput_driver.c
+warning: 759	1506	Implicit conversion of pointer to int	mmbInput_driver.c
+warning: 780	1506	Implicit conversion of pointer to int	mmbInput_driver.c
+warning: 796	1506	Implicit conversion of pointer to int	mmbInput_driver.c
+diagnostics: 1157	123	Compiled Successfully	mmbInput_driver.c
+diagnostics: 0	122	Compilation Started	mmbInput_resources.c
+diagnostics: 3	123	Compiled Successfully	mmbInput_resources.c
+diagnostics: 0	127	All files Compiled in 516 ms	 
+hint: 0	1144	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)
+hint: 0	1144	Static RAM (bytes): 1828   Dynamic RAM (bytes): 28890	Static RAM (bytes): 1828   Dynamic RAM (bytes): 28890
+hint: 0	1144	Used ROM (bytes): 23745 (14%)  Free ROM (bytes): 151359 (86%)	Used ROM (bytes): 23745 (14%)  Free ROM (bytes): 151359 (86%)
+diagnostics: 0	125	Project Linked Successfully	mmbInput.mcpds
+diagnostics: 0	128	Linked in 875 ms	 
+diagnostics: 0	129	Project 'mmbInput.mcpds' completed: 1922 ms	 
+diagnostics: 0	103	Finished successfully: 16 Jul 2012, 10:22:52	mmbInput.mcpds
