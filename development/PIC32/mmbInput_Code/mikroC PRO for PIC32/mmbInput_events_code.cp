@@ -1,5 +1,5 @@
-#line 1 "C:/Documents and Settings/PC/Desktop/Mikromedia Gaming Shield Input Libray/Development/PIC32/mmbInput_Code/mikroC PRO for PIC32/mmbInput_events_code.c"
-#line 1 "c:/documents and settings/pc/desktop/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/mmbinput_objects.h"
+#line 1 "X:/Mikromedia Board/MMB Input Demo/Release V0.2 - Dec 1, 2012/Mikromedia Gaming Shield Input Libray/Development/PIC32/mmbInput_Code/mikroC PRO for PIC32/mmbInput_events_code.c"
+#line 1 "x:/mikromedia board/mmb input demo/release v0.2 - dec 1, 2012/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/mmbinput_objects.h"
 typedef enum {_taLeft, _taCenter, _taRight} TTextAlign;
 
 typedef struct Screen TScreen;
@@ -154,9 +154,9 @@ void DrawImage(TImage *AImage);
 void DrawRadioButton(TRadioButton *ARadioButton);
 void Check_TP();
 void Start_TP();
-#line 1 "c:/documents and settings/pc/desktop/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/mmbinput_resources.h"
-#line 1 "c:/documents and settings/pc/desktop/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/gaming-shield.h"
-#line 117 "c:/documents and settings/pc/desktop/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/gaming-shield.h"
+#line 1 "x:/mikromedia board/mmb input demo/release v0.2 - dec 1, 2012/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/mmbinput_resources.h"
+#line 1 "x:/mikromedia board/mmb input demo/release v0.2 - dec 1, 2012/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/gaming-shield.h"
+#line 189 "x:/mikromedia board/mmb input demo/release v0.2 - dec 1, 2012/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/gaming-shield.h"
 sbit upButton at PORTA.B6;
 sbit downButton at PORTA.B7;
 sbit rightButton at PORTD.B10;
@@ -200,7 +200,7 @@ sbit LED1_Direction at TRISE.B8;
 sbit LED2_Direction at TRISE.B9;
 sbit LED3_Direction at TRISA.B14;
 sbit LED4_Direction at TRISA.B15;
-#line 174 "c:/documents and settings/pc/desktop/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/gaming-shield.h"
+#line 246 "x:/mikromedia board/mmb input demo/release v0.2 - dec 1, 2012/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/gaming-shield.h"
 void InitGameShield(){
 
 
@@ -232,7 +232,7 @@ void InitGameShield(){
  LED3 = 0;
  LED4 = 0;
 }
-#line 8 "C:/Documents and Settings/PC/Desktop/Mikromedia Gaming Shield Input Libray/Development/PIC32/mmbInput_Code/mikroC PRO for PIC32/mmbInput_events_code.c"
+#line 8 "X:/Mikromedia Board/MMB Input Demo/Release V0.2 - Dec 1, 2012/Mikromedia Gaming Shield Input Libray/Development/PIC32/mmbInput_Code/mikroC PRO for PIC32/mmbInput_events_code.c"
 void Check_GS();
 void UpdateStatusLEDButtons();
 
@@ -250,7 +250,7 @@ void Check_GS(){
  LED2 = 0;
  LED3 = 0;
  LED4 = 0;
-#line 35 "C:/Documents and Settings/PC/Desktop/Mikromedia Gaming Shield Input Libray/Development/PIC32/mmbInput_Code/mikroC PRO for PIC32/mmbInput_events_code.c"
+#line 35 "X:/Mikromedia Board/MMB Input Demo/Release V0.2 - Dec 1, 2012/Mikromedia Gaming Shield Input Libray/Development/PIC32/mmbInput_Code/mikroC PRO for PIC32/mmbInput_events_code.c"
  strcpy(MCU_Caption, "PIC32");
  DrawButton(&MCU);
 

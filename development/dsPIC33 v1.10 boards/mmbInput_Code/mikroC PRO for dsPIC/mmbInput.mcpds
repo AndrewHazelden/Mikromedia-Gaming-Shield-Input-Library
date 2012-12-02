@@ -1,0 +1,75 @@
+[DEVICE]
+Name=P33FJ256GP710A
+Clock=80000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=gaming-shield.h
+[USE_EEPROM]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[FILES]
+Count=4
+File0=mmbInput_main.c
+File1=mmbInput_events_code.c
+File2=mmbInput_driver.c
+File3=mmbInput_resources.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=6
+File0=mmbInput_main.c
+File1=mmbInput_events_code.c
+File2=gaming-shield.h
+File3=mmbInput_resources.c
+File4=mmbInput_driver.c
+File5=mmbInput_objects.h
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=3
+Path0=C:\Program Files\Mikroelektronika\mikroC PRO for dsPIC\Defs\
+Path1=C:\Program Files\Mikroelektronika\mikroC PRO for dsPIC\uses\
+Path2=X:\Mikromedia Board\MMB Input Demo\Release V0.2 - Dec 1, 2012\Mikromedia Gaming Shield Input Libray\Development\dsPIC33 v1.10 boards\mmbInput_Code\mikroC PRO for dsPIC\
+[HEADER_PATH]
+Count=1
+Path0=X:\Mikromedia Board\MMB Input Demo\Release V0.2 - Dec 1, 2012\Mikromedia Gaming Shield Input Libray\Development\dsPIC33 v1.10 boards\mmbInput_Code\mikroC PRO for dsPIC\
+[HEADERS]
+Count=3
+File0=mmbInput_objects.h
+File1=mmbInput_resources.h
+File2=gaming-shield.h
+[PLDS]
+Count=0
+[Useses]
+Count=11
+File0=C_Type
+File1=Spi
+File2=Mmc_FAT16_Defs
+File3=Mmc_FAT16_Config
+File4=Mmc_FAT16
+File5=Mmc
+File6=TFT_TouchPanel
+File7=ADC
+File8=TFT_Fonts
+File9=TFT
+File10=C_String
+[EXPANDED NODES]
+Node1=Sources
+Node2=Header Files
+Node3=Output Files
+Count=3

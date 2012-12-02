@@ -39,12 +39,12 @@ Count=0
 Count=0
 [SEARCH_PATH]
 Count=3
-Path0=C:\Program Files\Mikroelektronika\mikroC PRO for PIC32\defs\
+Path0=C:\Program Files\Mikroelektronika\mikroC PRO for PIC32\Defs\
 Path1=C:\Program Files\Mikroelektronika\mikroC PRO for PIC32\uses\
-Path2=C:\Documents and Settings\PC\Desktop\Mikromedia Gaming Shield Input Libray\Development\PIC32\mmbInput_Code\mikroC PRO for PIC32\
+Path2=X:\Mikromedia Board\MMB Input Demo\Release V0.2 - Dec 1, 2012\Mikromedia Gaming Shield Input Libray\Development\PIC32\mmbInput_Code\mikroC PRO for PIC32\
 [HEADER_PATH]
 Count=1
-Path0=C:\Documents and Settings\PC\Desktop\Mikromedia Gaming Shield Input Libray\Development\PIC32\mmbInput_Code\mikroC PRO for PIC32\
+Path0=X:\Mikromedia Board\MMB Input Demo\Release V0.2 - Dec 1, 2012\Mikromedia Gaming Shield Input Libray\Development\PIC32\mmbInput_Code\mikroC PRO for PIC32\
 [HEADERS]
 Count=3
 File0=mmbInput_objects.h

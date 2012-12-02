@@ -1,5 +1,5 @@
-#line 1 "C:/Documents and Settings/PC/Desktop/Mikromedia Gaming Shield Input Libray/Development/PIC32/mmbInput_Code/mikroC PRO for PIC32/mmbInput_driver.c"
-#line 1 "c:/documents and settings/pc/desktop/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/mmbinput_objects.h"
+#line 1 "X:/Mikromedia Board/MMB Input Demo/Release V0.2 - Dec 1, 2012/Mikromedia Gaming Shield Input Libray/Development/PIC32/mmbInput_Code/mikroC PRO for PIC32/mmbInput_driver.c"
+#line 1 "x:/mikromedia board/mmb input demo/release v0.2 - dec 1, 2012/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/mmbinput_objects.h"
 typedef enum {_taLeft, _taCenter, _taRight} TTextAlign;
 
 typedef struct Screen TScreen;
@@ -154,9 +154,9 @@ void DrawImage(TImage *AImage);
 void DrawRadioButton(TRadioButton *ARadioButton);
 void Check_TP();
 void Start_TP();
-#line 1 "c:/documents and settings/pc/desktop/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/mmbinput_resources.h"
+#line 1 "x:/mikromedia board/mmb input demo/release v0.2 - dec 1, 2012/mikromedia gaming shield input libray/development/pic32/mmbinput_code/mikroc pro for pic32/mmbinput_resources.h"
 #line 1 "c:/program files/mikroelektronika/mikroc pro for pic32/include/built_in.h"
-#line 7 "C:/Documents and Settings/PC/Desktop/Mikromedia Gaming Shield Input Libray/Development/PIC32/mmbInput_Code/mikroC PRO for PIC32/mmbInput_driver.c"
+#line 7 "X:/Mikromedia Board/MMB Input Demo/Release V0.2 - Dec 1, 2012/Mikromedia Gaming Shield Input Libray/Development/PIC32/mmbInput_Code/mikroC PRO for PIC32/mmbInput_driver.c"
 sbit Mmc_Chip_Select at LATG9_bit;
 sbit Mmc_Chip_Select_Direction at TRISG9_bit;
 

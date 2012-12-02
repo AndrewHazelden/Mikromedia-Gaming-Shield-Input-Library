@@ -1,81 +1,81 @@
 _InitGameShield:
-;gaming-shield.h,174 :: 		void InitGameShield(){
-;gaming-shield.h,180 :: 		upButtonDirection = 1;       //up
+;gaming-shield.h,246 :: 		void InitGameShield(){
+;gaming-shield.h,252 :: 		upButtonDirection = 1;       //up
 LBU	R2, Offset(TRISA+0)(GP)
 ORI	R2, R2, 64
 SB	R2, Offset(TRISA+0)(GP)
-;gaming-shield.h,181 :: 		downButtonDirection = 1;     //down
+;gaming-shield.h,253 :: 		downButtonDirection = 1;     //down
 LBU	R2, Offset(TRISA+0)(GP)
 ORI	R2, R2, 128
 SB	R2, Offset(TRISA+0)(GP)
-;gaming-shield.h,182 :: 		rightButtonDirection = 1;    //right
+;gaming-shield.h,254 :: 		rightButtonDirection = 1;    //right
 LBU	R2, Offset(TRISD+1)(GP)
 ORI	R2, R2, 4
 SB	R2, Offset(TRISD+1)(GP)
-;gaming-shield.h,183 :: 		leftButtonDirection = 1;     //left
+;gaming-shield.h,255 :: 		leftButtonDirection = 1;     //left
 LBU	R2, Offset(TRISA+0)(GP)
 ORI	R2, R2, 32
 SB	R2, Offset(TRISA+0)(GP)
-;gaming-shield.h,184 :: 		triangleButtonDirection = 1; //triangle up
+;gaming-shield.h,256 :: 		triangleButtonDirection = 1; //triangle up
 LBU	R2, Offset(TRISD+1)(GP)
 ORI	R2, R2, 64
 SB	R2, Offset(TRISD+1)(GP)
-;gaming-shield.h,185 :: 		xButtonDirection = 1;        //x down
+;gaming-shield.h,257 :: 		xButtonDirection = 1;        //x down
 LBU	R2, Offset(TRISD+1)(GP)
 ORI	R2, R2, 128
 SB	R2, Offset(TRISD+1)(GP)
-;gaming-shield.h,186 :: 		circleButtonDirection = 1;   //circle right
+;gaming-shield.h,258 :: 		circleButtonDirection = 1;   //circle right
 LBU	R2, Offset(TRISF+0)(GP)
 ORI	R2, R2, 16
 SB	R2, Offset(TRISF+0)(GP)
-;gaming-shield.h,187 :: 		squareButtonDirection = 1;   //square left
+;gaming-shield.h,259 :: 		squareButtonDirection = 1;   //square left
 LBU	R2, Offset(TRISD+1)(GP)
 ORI	R2, R2, 8
 SB	R2, Offset(TRISD+1)(GP)
-;gaming-shield.h,188 :: 		startButtonDirection = 1;    //start
+;gaming-shield.h,260 :: 		startButtonDirection = 1;    //start
 LBU	R2, Offset(TRISF+0)(GP)
 ORI	R2, R2, 32
 SB	R2, Offset(TRISF+0)(GP)
-;gaming-shield.h,193 :: 		LED1_Direction = 0; //led 1
+;gaming-shield.h,265 :: 		LED1_Direction = 0; //led 1
 LBU	R2, Offset(TRISE+1)(GP)
 INS	R2, R0, 0, 1
 SB	R2, Offset(TRISE+1)(GP)
-;gaming-shield.h,194 :: 		LED2_Direction = 0; //led 2
+;gaming-shield.h,266 :: 		LED2_Direction = 0; //led 2
 LBU	R2, Offset(TRISE+1)(GP)
 INS	R2, R0, 1, 1
 SB	R2, Offset(TRISE+1)(GP)
-;gaming-shield.h,195 :: 		LED3_Direction = 0; //led 3
+;gaming-shield.h,267 :: 		LED3_Direction = 0; //led 3
 LBU	R2, Offset(TRISA+1)(GP)
 INS	R2, R0, 6, 1
 SB	R2, Offset(TRISA+1)(GP)
-;gaming-shield.h,196 :: 		LED4_Direction = 0; //led 4
+;gaming-shield.h,268 :: 		LED4_Direction = 0; //led 4
 LBU	R2, Offset(TRISA+1)(GP)
 INS	R2, R0, 7, 1
 SB	R2, Offset(TRISA+1)(GP)
-;gaming-shield.h,198 :: 		Delay_ms(100);
+;gaming-shield.h,270 :: 		Delay_ms(100);
 LUI	R24, 40
 ORI	R24, R24, 45226
 L_InitGameShield0:
 ADDIU	R24, R24, -1
 BNE	R24, R0, L_InitGameShield0
 NOP	
-;gaming-shield.h,200 :: 		LED1 = 0;
+;gaming-shield.h,272 :: 		LED1 = 0;
 LBU	R2, Offset(LATE+1)(GP)
 INS	R2, R0, 0, 1
 SB	R2, Offset(LATE+1)(GP)
-;gaming-shield.h,201 :: 		LED2 = 0;
+;gaming-shield.h,273 :: 		LED2 = 0;
 LBU	R2, Offset(LATE+1)(GP)
 INS	R2, R0, 1, 1
 SB	R2, Offset(LATE+1)(GP)
-;gaming-shield.h,202 :: 		LED3 = 0;
+;gaming-shield.h,274 :: 		LED3 = 0;
 LBU	R2, Offset(LATA+1)(GP)
 INS	R2, R0, 6, 1
 SB	R2, Offset(LATA+1)(GP)
-;gaming-shield.h,203 :: 		LED4 = 0;
+;gaming-shield.h,275 :: 		LED4 = 0;
 LBU	R2, Offset(LATA+1)(GP)
 INS	R2, R0, 7, 1
 SB	R2, Offset(LATA+1)(GP)
-;gaming-shield.h,204 :: 		}
+;gaming-shield.h,276 :: 		}
 L_end_InitGameShield:
 JR	RA
 NOP	
