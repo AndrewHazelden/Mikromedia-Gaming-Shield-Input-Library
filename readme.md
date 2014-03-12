@@ -7,11 +7,11 @@ You can use the file "gaming-shield.h" in your projects to interface with your M
 
 The code was written using [mikroC PRO for PIC32](http://www.mikroe.com/mikroc/pic32/), [mikroC PRO for dsPIC](http://www.mikroe.com/mikroc/dspic/), and [VisualTFT](http://www.mikroe.com/visualtft/).
 
-![Mikromedia Gaming Shield Library   1](https://raw.github.com/AndrewHazelden/Mikromedia-Gaming-Shield-Input-Libray/master/screenshot/1.mikromedia-input-demo-on-both-platforms.jpg)
+![Mikromedia Gaming Shield Library   1](screenshot/1.mikromedia-input-demo-on-both-platforms.jpg)
 
-![Using the MMB Iinput Demo on PIC32](https://raw.github.com/AndrewHazelden/Mikromedia-Gaming-Shield-Input-Libray/master/screenshot/2.using-the-mikromedia-input-demo.jpg)
+![Using the MMB Iinput Demo on PIC32](screenshot/2.using-the-mikromedia-input-demo.jpg)
 
-![Using the MMB Iinput Demo on PIC32 Closeup](https://raw.github.com/AndrewHazelden/Mikromedia-Gaming-Shield-Input-Libray/master/screenshot/3.mikromedia-screen-closeup.jpg)
+![Using the MMB Input Demo on PIC32 Closeup](screenshot/3.mikromedia-screen-closeup.jpg)
 * * * 
 
 ##Developer Note
