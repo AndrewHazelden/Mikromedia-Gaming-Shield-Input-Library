@@ -1,4 +1,4 @@
-#Andrew Hazelden's Mikromedia Gaming Shield Library  
+# Andrew Hazelden's Mikromedia Gaming Shield Library  
 Version 0.2 Alpha - Dec 1, 2012  
 
 This is an input library for the MikroElektronika Mikromedia Gaming Shield. It is compatible with the Mikromedia dsPIC33 and PIC32 boards. The library is designed to get you started with the Gaming Shield and provides control over the 4 LEDs on the Gaming Shield and reads the inputs from the buttons.
@@ -14,7 +14,7 @@ The code was written using [mikroC PRO for PIC32](http://www.mikroe.com/mikroc/p
 ![Using the MMB Input Demo on PIC32 Closeup](screenshot/3.mikromedia-screen-closeup.jpg)
 * * * 
 
-##Developer Note
+## Developer Note
 
 This version of the library has added support for both the Mikromedia dsPIC33 v1.05 and v1.10 boards.
 
@@ -25,7 +25,7 @@ To enable support for the older v1.05 mikromedia board you need to comment out t
 
 * * * 
 
-##Installation
+## Installation
 
 1. Install the HEX Firmware 
 
@@ -43,12 +43,12 @@ To enable support for the older v1.05 mikromedia board you need to comment out t
 
 ------------------------------------------------------
 
-##Library Details
+## Library Details
 
-###Open Source Software License:  
+### Open Source Software License:  
 [New BSD License](https://en.wikipedia.org/wiki/BSD_licenses)
   
-###Compatible Software 
+### Compatible Software 
 [mikroC PRO for PIC32](http://www.mikroe.com/mikroc/pic32/)
                  
 [mikroC PRO for dsPIC](http://www.mikroe.com/mikroc/dspic/)
@@ -57,13 +57,13 @@ To enable support for the older v1.05 mikromedia board you need to comment out t
 
 
                 
-###Hardware Required
+### Hardware Required
                 
-####Compatible Development Boards      
+#### Compatible Development Boards      
 [MikroMMB for PIC32](http://www.mikroe.com/mikromedia/pic32/) or [MikroMMB for dsPIC33](http://www.mikroe.com/mikromedia/dspic33/)             
 
 
-###Gaming Controller    
+### Gaming Controller    
 [Mikromedia GAMING Shield](http://www.mikroe.com/mikromedia/shields/gaming/)
 
 ------------------------------------------------------
